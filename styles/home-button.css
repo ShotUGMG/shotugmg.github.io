@@ -1,6 +1,4 @@
 .home-button {
-    margin: auto;
-    display: block;
     border: none;
     cursor: pointer;
     transition: width 1s;
@@ -14,5 +12,5 @@
 }
 .wrapper{
     text-align: center;
-    transform: translateY(70px);
+    transform: translateY(50px);
 }
