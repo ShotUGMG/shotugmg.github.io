@@ -1,6 +1,5 @@
 .home-button {
     margin: auto;
-    display: block;
     border: none;
     cursor: pointer;
     transition: width 1s;
