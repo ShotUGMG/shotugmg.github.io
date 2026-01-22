@@ -1,10 +1,10 @@
 .home-button {
-    margin: 0 auto;
-    display: relative;
+    margin: auto;
+    display: block;
     border: none;
     cursor: pointer;
     transition: width 1s;
-    transform: scaleX(5) scaleY(5);
+    transform: scaleX(30) scaleY(60);
     transition: 0.5s;
     background-color: rgba(255, 255, 255, 0);
     background-size: 100% 100%;
