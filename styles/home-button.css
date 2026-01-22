@@ -1,0 +1,16 @@
+.home-button {
+    margin: 8%;
+    border: none;
+    cursor: pointer;
+    transition: width 1s;
+    transform: scaleX(40) scaleY(80);
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 100% 100%;
+}
+.home-button:hover {
+    transform: scaleX(43) scaleY(87);
+}
+.wrapper{
+    text-align: center;
+}
