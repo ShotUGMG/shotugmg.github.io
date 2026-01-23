@@ -2,15 +2,15 @@
     border: none;
     cursor: pointer;
     transition: width 1s;
-    transform: scaleX(30) scaleY(60);
+    transform: scaleX(20) scaleY(40);
     transition: 0.5s;
     background-color: rgba(255, 255, 255, 0);
     background-size: 100% 100%;
 }
 .home-button:hover {
-    transform: scaleX(32) scaleY(64);
+    transform: scaleX(22) scaleY(44);
 }
 .wrapper{
     text-align: center;
-    transform: translateY(50px);
+    transform: translateY(40px);
 }
