@@ -11,6 +11,8 @@
     transform: scaleX(22) scaleY(44);
 }
 .wrapper{
+    position: relative;
+    z-index: 2;
     text-align: center;
     transform: translateY(40px);
 }

@@ -8,11 +8,17 @@
         <link rel="stylesheet" href="styles/page-background.css">
         <link rel="stylesheet" href="styles/home-button.css">
     </head>
-    <body>
-        <div class="wrapper">
-            <button class="home-button"></button>
-        </div>
+    <body>        
+        <header>
+            <div class="wrapper">
+                <button class="home-button"></button>
+            </div>
+            <div class="header-bg">
+                <br>
+            </div>
+        </header>
     </body>
+
     <body class="background-main"></body>
 </html>
 
@@ -21,5 +27,12 @@
 <style>
 .home-button {
     background-image: url(images/title.png)
+}
+
+.header-bg{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(8, 8, 8);
+    transform: scaleY(15);
 }
 </style> 
