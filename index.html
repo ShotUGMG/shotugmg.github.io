@@ -2,38 +2,54 @@
 <html lang="en-US" class="padding-margin-fix">
     <head>
         <title>Survival Reimagined</title>
-        <link rel="canonical" href="https://shotugmg.github.io/home/">
         <link rel="icon" type="image/sr-icon" href="images/heart.png">
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device=width" initial-scale=1/>
-        <link rel="stylesheet" href="styles/page-background.css">
-        <link rel="stylesheet" href="styles/home-button.css">
+        <meta charset="utf-8"/>
+        <meta name="viewport"/>
     </head>
     <header>
-        <body class="background-main">    
-            <div class="wrapper">
-                <a href="index.html">
-                    <button class="home-button"></button>
-                </a>
+        <body class="background-main">
+            <div>
+                <div class="wrapper">
+                    <a href="index.html">
+                        <button class="home-button"></button>
+                    </a>
+                </div>
+                <div class="header-bg">
+                    <br>
+                </div>
+                <div>
+                    <ul class="header-buttons">
+                        <a href="https://modrinth.com/mod/survival-reimagined" class="download-button">
+                            <li>
+                                <p class="download-text">
+                                    Download
+                                </p>
+                            </li>
+                        </a>
+                        <a href="docs.html" class="download-button">
+                            <li>
+                                <p class="docs-text">
+                                    Documentation
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div class="header-bg">
-                <br>
-            </div>   
         </body>
     </header>
 </html>
 
 
-<!--Style Imports and Images-->
+<!--CSS and Imports-->
+<link rel="stylesheet" href="styles/page-background.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/header-buttons.css">
+<link rel="preload" href="fonts/Minecraftia-Regular.eot" as="font" type="font/eof" crossorigin>
+<link rel="preload" href="fonts/Minecraftia-Regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="fonts/Minecraftia-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 .home-button {
     background-image: url(images/title.png)
-}
-
-.header-bg{
-    position: relative;
-    z-index: 1;
-    background-color: rgb(8, 8, 8);
-    transform: scaleY(15);
 }
 </style> 

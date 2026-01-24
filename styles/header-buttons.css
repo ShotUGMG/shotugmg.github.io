@@ -1,0 +1,30 @@
+.download-button{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+.download-text{
+    color: white;
+    opacity: 50%;
+    transition: 0.25s;
+    transform: translateY(15px);
+}
+.docs-text{
+    color: white;
+    opacity: 50%;
+    transition: 0.25s;
+}
+
+.header-buttons {
+    font-family: Minecraftia;
+    position: absolute;
+    z-index: 3;
+    transform: translateY(-40px) translateX(175px);
+}
+.docs-text:hover{
+    opacity: 80%;
+    transform: translateX(5px);
+}
+.download-text:hover{
+    opacity: 80%;
+    transform: translateX(5px) translateY(15px);
+}

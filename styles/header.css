@@ -1,0 +1,24 @@
+.home-button {
+    border: none;
+    cursor: pointer;
+    transition: width 1s;
+    transform: scaleX(15) scaleY(30);
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 100% 100%;
+}
+.home-button:hover {
+    transform: scaleX(17) scaleY(34);
+}
+.wrapper{
+    position: absolute;
+    z-index: 2;
+    transform: translateY(40px) translateX(100px);
+}
+
+.header-bg{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(8, 8, 8);
+    transform: scaleY(10);
+}
