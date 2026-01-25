@@ -18,23 +18,31 @@
                     <br>
                 </div>
                 <div>
-                    <ul class="header-buttons">
-                        <a href="https://modrinth.com/mod/survival-reimagined" class="download-button">
-                            <li>
-                                <p class="download-text">
-                                    Download
-                                </p>
-                            </li>
-                        </a>
-                        <a href="docs.html" class="download-button">
-                            <li>
-                                <p class="docs-text">
-                                    Documentation
-                                </p>
-                            </li>
-                        </a>
-                    </ul>
-                </div>
+    <ul class="header-buttons">
+        <div class="download-dropdown">
+    <a href="#" class="download-button" onclick="toggleDropdown()">
+        <li>
+            <p class="download-text">
+                Download
+            </p>
+        </li>
+    </a>
+    <div id="dropdown-content" class="dropdown-content">
+        <a href="https://modrinth.com/mod/survival-reimagined/" class="dropdown-item">NeoForge</a>
+        <a href="https://modrinth.com/mod/survival-reimagined-fabric/" class="dropdown-item">Fabric</a>
+    </div>
+</div>
+
+        <a href="docs.html" class="download-button">
+            <li>
+                <p class="docs-text">
+                    Documentation
+                </p>
+            </li>
+        </a>
+    </ul>
+</div>
+
             </div>
         </body>
     </header>
@@ -45,11 +53,12 @@
 <link rel="stylesheet" href="styles/page-background.css">
 <link rel="stylesheet" href="styles/header.css">
 <link rel="stylesheet" href="styles/header-buttons.css">
-<link rel="preload" href="fonts/Minecraftia-Regular.eot" as="font" type="font/eof" crossorigin>
-<link rel="preload" href="fonts/Minecraftia-Regular.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="fonts/Minecraftia-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<script src="scripts/LeftClickEvent.js"></script>
 <style>
 .home-button {
     background-image: url(images/title.png)
 }
-</style> 
+</style>
