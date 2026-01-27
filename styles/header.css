@@ -13,12 +13,28 @@
 .wrapper{
     position: absolute;
     z-index: 2;
-    transform: translateY(40px) translateX(100px);
+    transform: translateY(35px) translateX(100px);
 }
 
 .header-bg{
-    position: relative;
+    height: 100px;
     z-index: 1;
     background-color: rgb(8, 8, 8);
-    transform: scaleY(10);
+}
+.line {
+    z-index: 3;
+    background-color: white;
+    width: 3px;
+    height: 75px;
+    transform: translateX(165px) translateY(-70px);
+    opacity: 50%;
+}
+
+.desc-header {
+    color: white; 
+    font-size: 17px;
+    width: 800px;
+    transform: translateX(175px) translateY(-160px);
+    line-height: 35px;
+    opacity: 50%;
 }

@@ -12,17 +12,18 @@
     color: white;
     opacity: 50%;
     transition: 0.25s;
+    transform: translateY(15px);
 }
 
 .header-buttons {
     font-family: "Silkscreen", sans-serif;
     position: absolute;
     z-index: 3;
-    transform: translateY(-40px) translateX(175px);
+    transform: translateX(75px) translateY(-77px);
 }
 .docs-text:hover{
     opacity: 80%;
-    transform: translateX(5px);
+    transform: translateX(5px) translateY(15px);
 }
 .download-text:hover{
     opacity: 80%;
@@ -49,7 +50,7 @@
 .dropdown-content.show {
     display: block;
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-30px);
 }
 
 .dropdown-item {

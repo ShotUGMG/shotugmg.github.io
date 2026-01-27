@@ -1,0 +1,20 @@
+.index-text {
+    margin: 5%;
+    font-family: "Silkscreen", sans-serif;
+    color: rgb(255, 255, 255);
+    transform: translateY(50px);
+    text-shadow: 0px 6px rgb(0, 0, 0);
+}
+
+.intro {
+    font-size: 35px;
+    opacity: 50%;
+}
+.intro-desc {
+    font-size: 20px;
+    opacity: 50%;
+}
+.wiki-text {
+    font-size: 60px;
+    opacity: 70%;
+}

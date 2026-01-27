@@ -4,48 +4,84 @@
         <title>Survival Reimagined</title>
         <link rel="icon" type="image/sr-icon" href="images/heart.png">
         <meta charset="utf-8"/>
-        <meta name="viewport"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <header>
         <body class="background-main">
             <div>
                 <div class="wrapper">
                     <a href="index.html">
-                        <button class="home-button"></button>
+                        <button class="home-button" style="background-image: url(images/title.png);"></button>
                     </a>
+                    <ul class="header-buttons">
+                    <div class="download-dropdown">
+                        <a href="#" class="download-button" onclick="toggleDropdown()">
+                            <li>
+                                <p class="download-text">
+                                Download
+                                </p>
+                            </li>
+                        </a>
+                        <a href="docs.html" class="download-button">
+                            <li>
+                                <p class="docs-text">
+                                Documentation
+                                </p>
+                            </li>
+                        </a>
+                        <div id="dropdown-content" class="dropdown-content">
+                            <a href="https://modrinth.com/mod/survival-reimagined/" class="dropdown-item">NeoForge</a>
+                            <a href="https://modrinth.com/mod/survival-reimagined-fabric/" class="dropdown-item">Fabric</a>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <br>
+                    </div>
+                    <p class="desc-header">A Minecraft Mod with the goal of making Minecraft harder with a more realistic approach at progression.</p>
+                </ul>
                 </div>
-                <div class="header-bg">
-                    <br>
-                </div>
+                    <div class="header-bg"><br></div>
                 <div>
-    <ul class="header-buttons">
-        <div class="download-dropdown">
-    <a href="#" class="download-button" onclick="toggleDropdown()">
-        <li>
-            <p class="download-text">
-                Download
-            </p>
-        </li>
-    </a>
-    <div id="dropdown-content" class="dropdown-content">
-        <a href="https://modrinth.com/mod/survival-reimagined/" class="dropdown-item">NeoForge</a>
-        <a href="https://modrinth.com/mod/survival-reimagined-fabric/" class="dropdown-item">Fabric</a>
-    </div>
-</div>
-
-        <a href="docs.html" class="download-button">
-            <li>
-                <p class="docs-text">
-                    Documentation
-                </p>
-            </li>
-        </a>
-    </ul>
-</div>
-
             </div>
         </body>
     </header>
+    <body>
+        <div>
+            <div class="index-text">
+                <p class="wiki-text"> Welcome to the Survival Reimagined Wiki</p>
+                <p class="intro">Introduction</p>
+                <p class="intro-desc">
+                    Survival Reimagined is a realism difficulty scaling mod by changing progression to achieve realism.
+                    Progress the ages starting at stone to bronze to steel all the way to diamond. 
+                    Efficiently maintain your hunger and stay out of the darkness.
+                    Discover deeper depths beneath the deepslate.
+                </p>
+            </div>
+            <br>
+            <section>
+                <h1 class="text-features">Features</h1>
+                <div class="slideshow-container">
+                    <div class="slides fade">
+                        <div class="numbertext"> 1/3</div>
+                        <img src="images/image1.png" style="width: 100%;">
+                        <div class="text">Caption 1</div>
+                    </div>
+                    <div class="slides fade">
+                        <div class="numbertext"> 2/3</div>
+                        <img src="images/image2.png" style="width: 100%;">
+                        <div class="text">Caption 2</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="numbertext"> 3/3</div>
+                        <img src="images/image3.png" style="width: 100%;">
+                        <div class="text">Caption 3</div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </section>
+    </body>
 </html>
 
 
@@ -53,12 +89,18 @@
 <link rel="stylesheet" href="styles/page-background.css">
 <link rel="stylesheet" href="styles/header.css">
 <link rel="stylesheet" href="styles/header-buttons.css">
+<link rel="stylesheet" href="styles/page-content.css">
+<link rel="stylesheet" href="styles/gallery-style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <script src="scripts/LeftClickEvent.js"></script>
+<script src="scripts/GalleryHandler.js"></script>
+
 <style>
-.home-button {
-    background-image: url(images/title.png)
-}
+
+
+
+
 </style>
